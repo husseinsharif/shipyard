@@ -1,0 +1,60 @@
+<template name='shipdetail'>
+	<div class='col-xs-10'>
+		<!-- IMAGE -->
+		<br><br>
+		<div class='row' align='center'>
+			<div class='col-xs-offset-4 col-xs-4' align='center'>
+				<h4>Ship Demo</h4>
+				{{ > video }}
+			</div>
+			<br>
+		</div><br>
+		<div class='row'>
+			<div class='col-xs-4' align='center'>
+				<h4> Ship Views</h4>
+				<br>
+				{{> carousel}}
+			</div>
+			<!-- MAIN SPECS -->
+			<div class='col-xs-4' align='center'>
+				<h4> Ship Details </h4>
+				<br>
+				{{#with getShipDetails}}
+				<p> <b>Name:</b><br> {{ship.name}}</p>
+				<p>	<b>Class:</b><br> {{ship.class}} </p>
+				<p> <b>Manufac:</b><br> {{ship.manufacturer}}</p>	
+				{{/with}}
+			</div>
+			<!-- TECH SPECS -->
+			<div class='col-xs-4' align='left'>
+				<h4> Tech Specs</h4>
+				<br>
+				<ul>
+					{{#with getShipDetails}}
+						{{#each item in getTechSpecs}}
+							<li>{{item}}</li>
+						{{/each}}
+					{{/with}}
+				</ul>
+			</div>
+		</div>
+	</div>
+</template>
+
+<template name='carousel'>
+	<div id="carousel">
+		<div><img src='/images/ship.png'></div>
+		<div><img src='/images/ship.png'></div>
+		<div><img src='/images/ship.png'></div>
+		<div><img src='/images/ship.png'></div>
+		<div><img src='/images/ship.png'></div>
+		<div><img src='/images/ship.png'></div>
+	</div>
+</template>
+
+<template name='video'>
+	<div height=200 width=200 style="position:relative;height:0;padding-bottom:56.25%">
+		<iframe src="https://www.youtube.com/embed/TWj_pfuHEMQ?ecver=2&autoplay=1" width="200" height="200" frameborder="1" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+	</div>
+</template>
+

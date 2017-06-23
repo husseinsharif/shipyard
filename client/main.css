@@ -1,0 +1,29 @@
+.panel {
+	background-color: #27ae60;
+	height: 100vh;
+	color:white;
+}
+
+.shipBox {
+	background-color:#2ecc71;
+	margin:20px;
+	padding:20px;
+	height:300px;
+}
+
+body {
+	background-color:#ecf0f1;
+}
+
+#carousel {
+	border:   1px solid black;
+	width:    200px;
+	position: relative;
+}
+#carousel div {
+	width:    100%;
+}
+
+.slick-prev:before, .slick-next:before {
+	color:    silver;
+}

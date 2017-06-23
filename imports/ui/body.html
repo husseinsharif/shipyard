@@ -1,0 +1,19 @@
+<template name='mainLayout'>
+  {{> shipyardcontainer}}}
+</template>
+
+<template name='shipyardcontainer'>
+	<div class="container-fluid">
+		<div class='row'>
+			<div class='panel col-sm-2'>
+				<h3>Nav Panel </h3>
+					{{> Template.dynamic template=backbutton}}
+			</div>
+			  {{> Template.dynamic template=main}}
+		</div>
+	</div>
+</template>
+
+<template name='backbutton'>
+	<button id='backbutton' type="button" class="btn btn-info">Back to Shipyard</button>
+</template>
