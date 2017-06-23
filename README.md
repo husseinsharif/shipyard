@@ -1,4 +1,4 @@
-# shipyard
+# Shipyard Example
 
 ## Synopsis
 
@@ -7,11 +7,11 @@ Shipyard example for ML.
 
 ## Installation
 
-###Install Meteor JS
-For Mac: In Terminal, type 'curl https://install.meteor.com/ | sh'
-For Windows: Run installer here: https://install.meteor.com/windows?_ga=2.39888682.960248709.1498177106-135183304.1487899073
+**Install Meteor JS**
+1) For Mac: In Terminal, type 'curl https://install.meteor.com/ | sh'
+2) For Windows: Run installer here: https://install.meteor.com/windows?_ga=2.39888682.960248709.1498177106-135183304.1487899073
 
-###Download Repo from GIT
+**Download Repo and Run Application**
 1) Create a directory
 2) Go to that directory in your Command Line Interface (CLI)
 3) Type 'git clone https://github.com/husseinsharif/shipyard.git' and hit enter
