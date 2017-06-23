@@ -2,31 +2,26 @@
 
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+Shipyard example for ML.
 
-## Code Example
-
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
-## Motivation
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+###Install Meteor JS
+For Mac: In Terminal, type 'curl https://install.meteor.com/ | sh'
+For Windows: Run installer here: https://install.meteor.com/windows?_ga=2.39888682.960248709.1498177106-135183304.1487899073
 
-## API Reference
+###Download Repo from GIT
+1) Create a directory
+2) Go to that directory in your Command Line Interface (CLI)
+3) Type 'git clone https://github.com/husseinsharif/shipyard.git' and hit enter
+4) Type 'cd shipyard' and hit enter in order to change directory to the shipyard folder
+5) Type 'meteor' and hit enter in order to build and run the app locally, if meteor is installed correctly, you can goto the IP address 127.0.0.1:3000 in your web browser and view the running app
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Hussein Sharif
 
 ## License
 
